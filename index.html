@@ -12,33 +12,32 @@
     <div class="container">
       <div class="row">
         <div class="box__wrapper">
-          <div class="inputField">
-            <input type="text" />
+          <div class="inputField"> 
           </div>
           <div class="buttons__wrapper">
           <div class="buttons">
             <div class="button__wrapper">
-              <button class="number__button">1</button>
-              <button class="number__button">2</button>
-              <button class="number__button">3</button>
-              <button class="number__button">4</button>
-              <button class="number__button">5</button>
-              <button class="number__button">6</button>
-              <button class="number__button">7</button>
-              <button class="number__button">8</button>
-              <button class="number__button">9</button>
+              <button class="number__button" value="1" onclick="digits(event)">1</button>
+              <button class="number__button" value="2" onclick="digits(event)">2</button>
+              <button class="number__button" value="3" onclick="digits(event)">3</button>
+              <button class="number__button" value="4" onclick="digits(event)">4</button>
+              <button class="number__button" value="5" onclick="digits(event)">5</button>
+              <button class="number__button" value="6" onclick="digits(event)">6</button>
+              <button class="number__button" value="7" onclick="digits(event)">7</button>
+              <button class="number__button" value="8" onclick="digits(event)">8</button>
+              <button class="number__button" value="9" onclick="digits(event)">9</button>
             </div>
             <div class="rigthSide__wrapper">
-              <button class="rightSide">/</button>
-              <button class="rightSide">*</button>
-              <button class="rightSide rightSide_clear">Clear</button>
+              <button class="rightSide" value="/" onclick="buttonCLicked(event)">/</button>
+              <button class="rightSide" value="*" onclick="buttonCLicked(event)">*</button>
+              <button class="rightSide rightSide_clear" onclick="clearField()">Clear</button>
             </div>
           </div>
           <div class="bottomSide__wrapper">
-            <button class="bottomSide">+</button>
-            <button class="bottomSide">-</button>
-            <button class="bottomSide bottomSide__clearAll">Clr All</button>
-            <button class="bottomSide bottomSide__equalls">=</button>
+            <button class="bottomSide" value="+" onclick="buttonCLicked(event)">+</button>
+            <button class="bottomSide" value="-" onclick="buttonCLicked(event)">-</button>
+            <button class="bottomSide bottomSide__clearAll" value="0" onclick="buttonCLicked(event)">0</button>
+            <button class="bottomSide bottomSide__equalls" onclick="output()">=</button>
           </div>
         </div>
         </div>
