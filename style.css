@@ -81,3 +81,40 @@ button:hover{
     margin-left: 24px;
     width: 98px;
 }
+
+@media(max-width:480px){
+    .inputField{
+        padding: 12px;
+        height: 62px;
+        margin-bottom: 18px;
+    }
+    
+    .row{
+        max-width: 420px;
+        width: 100%;
+    }
+    .box__wrapper{
+        width: 280px;
+        height: 520px;
+    }
+    .number__button, 
+    .rightSide,
+    .bottomSide{
+        margin: 4px;
+        height: 84px;
+        font-size: 24px;
+     
+    }
+    .rightSide_clear{
+        font-size: 14px;
+    }
+    .bottomSide__equalls{
+        width: 48px;
+    }
+    .bottomSide__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
